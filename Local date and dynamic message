@@ -10,4 +10,4 @@ function currenTime() {
 	//console.log(new Intl.DateTimeFormat('en-GB', {timeStyle:'short'}).format(now));
 	
     $w('#time').text = new Intl.DateTimeFormat('en-GB', {timeStyle:'short'}).format(now) //now.toLocaleDateString([], {timeStyle:'long'})
-    $w('#message').text = now.getMinutes() % 2 === 0 ? 'Time to get even' : 'We live in add times'
+    $w('#message').text = now.getMinutes() % 2 === 0 ? 'Time to get even' : 'We live in add times'}
